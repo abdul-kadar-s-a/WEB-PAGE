@@ -1,0 +1,105 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(66, 59, 59);
+  background-image: url('../images/deadpool-vs-wolverine-yellow-background-desktop-wallpaper-4k.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #07ec26;
+}
+  
+  .counter{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+   gap:15px;
+  }
+
+  p{
+     font-size: 12px;
+ }
+
+ .newyear{
+    font-family: 'Inspiration',cursive;
+    font-size: 40px;
+    font-weight: 500;
+   margin-top: 30px;
+ }
+
+ .box{
+width: 50px;
+height: 50px;
+text-align: center;
+background-color: aliceblue;
+ }
+
+ .box h2{
+    font-size: 25px;
+    font-weight: 500;
+ }
+ .box small{
+    font-size: 13px;
+ }
+
+ @media (min-width:576px) {
+    .newyear{
+    font-size: 100px;
+    }
+    p{
+     font-size: 18px;
+ }
+.box h2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.box small {
+  font-size: 13px;
+}
+ }
+@media (min-width: 576px) {
+  .newyear {
+    font-size: 100px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .box {
+    width: 100px;
+    height: 70px;
+  }
+  .box h2 {
+    font-size: 35px; /* Make numbers larger */
+  }
+  .box small {
+    font-size: 16px; /* Adjust label size */
+  }
+}
+
+@media (min-width: 768px) {
+  .newyear {
+    font-size: 150px;
+  }
+  p {
+    font-size: 25px;
+  }
+  .box h2 {
+    font-size: 45px; /* Larger for desktop */
+  }
+  .box small {
+    font-size: 20px;
+  }
+}
